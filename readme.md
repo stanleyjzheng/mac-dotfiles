@@ -41,12 +41,14 @@ MonoLisa is also packaged with these dotfiles.
 - Global .gitignore, https://github.com/mathiasbynens/dotfiles/blob/main/.gitignore
 - inputrc https://github.com/mathiasbynens/dotfiles/blob/main/.inputrc
 - Modify function keys as desired
-- Powerline fonts
 - Anaconda
 - Symlink everything like https://github.com/paulirish/dotfiles/blob/master/symlink-setup.sh
 - Make script for setting up completely new machine like https://github.com/paulirish/dotfiles/blob/master/setup-a-new-machine.sh
 - Compile list of desired brew packages like https://github.com/paulirish/dotfiles/blob/master/brew.sh or https://github.com/mathiasbynens/dotfiles/blob/main/brew.sh
 - Make init folder for themes, etc. https://github.com/mathiasbynens/dotfiles/tree/main/init
-- SSH settings 
+- SSH settings
+- Move `home_end_key.sh` into `.macos`
+- Automate install of MonoLisa and powerline fonts
+- Automate install of nord iterm with blur and transparency
 
 ![](https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true)
