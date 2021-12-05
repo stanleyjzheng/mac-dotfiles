@@ -1,2 +1,5 @@
-sudo mkdir ~/Library/KeyBindings
-sudo cp DefaultKeyBinding.dict ~/Library/KeyBindings
+# Ask for the administrator password upfront
+sudo -v
+
+mkdir ~/Library/KeyBindings
+cp DefaultKeyBinding.dict ~/Library/KeyBindings/
