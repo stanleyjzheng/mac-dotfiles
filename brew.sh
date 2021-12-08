@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-# Install command-line tools using Homebrew.
-
 # Make sure we’re using the latest Homebrew.
 brew update
 
@@ -67,6 +65,8 @@ brew install imagemagick --with-webp
 brew install gh
 brew install imageoptim-cli
 brew install ffmpeg
+brew install webtorrent-cli
+brew install yarn
 
 # utilities
 brew install postman

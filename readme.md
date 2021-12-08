@@ -59,7 +59,6 @@ Additional keybindings can be found [here](https://blog.victormendonca.com/2020/
 - Modify function keys as desired - is there any way to have a capslock/fn key?
 - Symlink everything like https://github.com/paulirish/dotfiles/blob/master/symlink-setup.sh
 - Make script for setting up completely new machine like https://github.com/paulirish/dotfiles/blob/master/setup-a-new-machine.sh
-- Make init folder for themes, etc. https://github.com/mathiasbynens/dotfiles/tree/main/init
 - SSH settings
 - Move `home_end_key.sh` into `.macos`
 - Make `cmd+m` and other common commands pass through to VSCode/PyCharm

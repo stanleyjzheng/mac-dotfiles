@@ -1,7 +1,6 @@
 # Install the Solarized Dark theme for iTerm 
-open "${HOME}/init/Solarized Dark.itermcolors"
+open ./init/nord.itermcolors
 
-# Don’t display the annoying prompt when quitting iTerm
-# it's saved me a few times so maybe not though.
-# defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
+cp .zshrc ~/.zshrc
