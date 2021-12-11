@@ -53,22 +53,13 @@ Additional keybindings can be found [here](https://blog.victormendonca.com/2020/
 - Automate 
     - VSCode configuration
     - PyCharm configuration
-    - Install of MonoLisa and powerline fonts
-    - Install of nord iterm
 
 - Modify function keys as desired - is there any way to have a capslock/fn key?
 - Symlink everything like https://github.com/paulirish/dotfiles/blob/master/symlink-setup.sh
-- Make script for setting up completely new machine like https://github.com/paulirish/dotfiles/blob/master/setup-a-new-machine.sh
 - SSH settings
-- Move `home_end_key.sh` into `.macos`
 - Make `cmd+m` and other common commands pass through to VSCode/PyCharm
 - ~~Set Colemak as default keyboard layout~~ Not easily doable
 - Karabiner to modify keybinds
 - Make iterm2 keep current path when opening new tab (like gnome terminal)
-
-#### Spotify
-- spicetify, beta
-- `brew install khanhas/tap/spicetify-cli`
-- https://gist.github.com/aleksandrs-ledovskis/0b149b996c7a1ebc16126c60a79433ec
 
 ![](https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true)

@@ -68,6 +68,7 @@ brew install ffmpeg
 brew install webtorrent-cli
 brew install yarn
 brew install watch
+brew install git-open
 
 # utilities
 brew install postman
