@@ -67,6 +67,7 @@ brew install imageoptim-cli
 brew install ffmpeg
 brew install webtorrent-cli
 brew install yarn
+brew install watch
 
 # utilities
 brew install postman
@@ -80,6 +81,16 @@ brew install the-unarchiver
 brew install topnotch
 brew install keka
 brew install via
+
+# quicklook extensions
+brew install qlcolorcode 
+brew install qlstephen 
+brew install qlmarkdown 
+brew install quicklook-json 
+brew install webpquicklook 
+brew install suspicious-package 
+brew install qlvideo 
+brew install qlImageSize
 
 # window manager
 brew install amethyst
@@ -98,6 +109,7 @@ brew install firefox
 
 # audio
 brew install blackhole-2ch
+brew install spotify
 
 # notes
 brew install notion
