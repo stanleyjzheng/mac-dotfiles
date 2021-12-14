@@ -42,17 +42,15 @@ Additional keybindings can be found [here](https://blog.victormendonca.com/2020/
 ## Todo
 - Investigate
     - Alfred (or maybe raycast)
-    - Nord dircolors https://github.com/arcticicestudio/nord-dircolors
-    - https://about.gitlab.com/blog/2020/04/17/dotfiles-document-and-automate-your-macbook-setup/
-    - https://github.com/mathiasbynens/dotfiles/blob/main/.functions
+    - functions? https://github.com/mathiasbynens/dotfiles/blob/main/.functions
     - Make a gitconfig, perhaps like https://github.com/mathiasbynens/dotfiles/blob/main/.gitconfig
-    - Global .gitignore, https://github.com/mathiasbynens/dotfiles/blob/main/.gitignore
     - inputrc https://github.com/mathiasbynens/dotfiles/blob/main/.inputrc
     - Try out keka instead of the-unarchiver
 
 - Automate 
     - VSCode configuration
     - PyCharm configuration
+    - Amethyst configuration
 
 - Modify function keys as desired - is there any way to have a capslock/fn key?
 - Symlink everything like https://github.com/paulirish/dotfiles/blob/master/symlink-setup.sh

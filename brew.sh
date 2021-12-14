@@ -19,6 +19,7 @@ brew install openssh
 brew install grep
 brew install screen
 brew install zsh
+brew install nano
 
 # terminal - see further in zsh.sh
 brew install iterm2
@@ -39,22 +40,21 @@ brew install anaconda
 
 # editors/version control
 brew install micro
-brew install nano
 brew install git
 brew install visual-studio-code
 brew install pycharm
 brew install bootstrap-studio
 
 # other command line utilities
-brew install mas
-brew install gnu-tar
-brew install glances
-brew install neofetch
-brew install jq
-brew install smartmontools
-brew install speedtest-cli
-brew install tmux
-brew install tree
+brew install mas # mac app store cli
+brew install gnu-tar # gtar
+brew install glances # better htop
+brew install neofetch # better fetch
+brew install jq # json parser
+brew install smartmontools # smartctl disk monitoring
+brew install speedtest-cli # internet speed test
+brew install tmux # terminal multiplexer
+brew install tree # directory tree
 brew install wget
 brew install curl
 brew install youtube-dl
@@ -62,26 +62,26 @@ brew install awscli
 brew install unzip
 brew install trash # gotta remember to use this instead of rm to save grief
 brew install imagemagick --with-webp
-brew install gh
+brew install gh # github cli
 brew install imageoptim-cli
 brew install ffmpeg
 brew install webtorrent-cli
 brew install yarn
 brew install watch
-brew install git-open
+brew install git-open # opens github/lab link for repos
 
 # utilities
 brew install postman
-brew install aldentne
-brew install boop
-brew install flycut
-brew install hazeover
-brew install imageoptim
+brew install aldente # manual batery charge limiter
+brew install boop # file utilities (so I don't google "json formatter")
+brew install flycut # clipboard manager
+brew install hazeover # window focus
+brew install imageoptim # image size optimizer
 brew install ledger-live
 brew install the-unarchiver
-brew install topnotch
-brew install keka
-brew install via
+brew install topnotch # make top section of wallpaper black to hide notch
+brew install keka # alternate unarchiver
+brew install via # keyboard configurator
 
 # quicklook extensions
 brew install qlcolorcode 
@@ -103,13 +103,14 @@ brew install signal
 brew install keybase
 brew install obs
 brew install zoom
+brew install gphoto2
 
 # browsers
 brew install chromium
 brew install firefox
 
 # audio
-brew install blackhole-2ch
+brew install blackhole-2ch # loopback
 brew install spotify
 
 # notes
