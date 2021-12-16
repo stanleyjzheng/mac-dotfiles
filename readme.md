@@ -60,4 +60,18 @@ Additional keybindings can be found [here](https://blog.victormendonca.com/2020/
 - Karabiner to modify keybinds
 - Make iterm2 keep current path when opening new tab (like gnome terminal)
 
+## Settings to observe
+```
+        "com.apple.keyboard.fnState" = 1;
+        "com.apple.mouse.scaling" = 3;
+        "com.apple.mouse.tapBehavior" = 1;
+        "com.apple.scrollwheel.scaling" = "0.5";
+        "com.apple.sound.beep.flash" = 0;
+        "com.apple.springing.delay" = "0.5";
+        "com.apple.springing.enabled" = 1;
+        "com.apple.swipescrolldirection" = 0;
+        "com.apple.trackpad.forceClick" = 1;
+        "com.apple.trackpad.scaling" = 1;
+        "com.apple.trackpad.scrolling" = "0.4412";
+```
 ![](https://raw.githubusercontent.com/arcticicestudio/nord-docs/develop/assets/images/nord/repository-footer-separator.svg?sanitize=true)

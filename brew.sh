@@ -36,7 +36,7 @@ brew install rust
 brew install gcc
 brew install ghostscript
 brew install mactex
-brew install anaconda
+brew install miniforge
 
 # editors/version control
 brew install micro
@@ -82,6 +82,7 @@ brew install the-unarchiver
 brew install topnotch # make top section of wallpaper black to hide notch
 brew install keka # alternate unarchiver
 brew install via # keyboard configurator
+brew install iina # supposed vlc replacement
 
 # quicklook extensions
 brew install qlcolorcode 
