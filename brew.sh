@@ -42,7 +42,7 @@ brew install miniforge
 brew install micro
 brew install git
 brew install visual-studio-code
-brew install pycharm
+brew install intellij-idea
 brew install bootstrap-studio
 
 # other command line utilities

@@ -1,0 +1,22 @@
+- turn off natural scrolling for mouse and trackpad
+- replace pycharm with intellij
+- add intellij config
+- set mouse/trackpad speed to the CORRECT speed
+- fix macos universalaccess
+```
+2021-12-17 15:50:49.533 defaults[67331:159501] Could not write domain com.apple.universalaccess; exiting
+2021-12-17 15:50:49.544 defaults[67332:159504] Could not write domain com.apple.universalaccess; exiting
+mkdir: /Users/terbi/screenshots: File exists
+xattr: /Users/terbi/Library: No such xattr: com.apple.FinderInfo
+```
+- Automate wallpaper
+- Automate opening apps
+- Add `conda.sh` to end
+- Make it unnecessary to say yes or add packages `--yes` or something.
+- Turn off iTerm "this shell closed very quickly" message
+- Fix zsh
+```
+_start_agent:18: no such file or directory: /Users/terbi/.ssh/environment-Terbi’s MacBook Pro
+chmod: /Users/terbi/.ssh/environment-Terbi’s MacBook Pro: No such file or directory
+_start_agent:.:20: no such file or directory: /Users/terbi/.ssh/environment-Terbi’s MacBook Pro
+```

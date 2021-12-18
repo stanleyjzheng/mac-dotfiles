@@ -19,19 +19,19 @@ open ./init/nord.itermcolors
 
 # install Mono Lisa font
 unzip init/MonoLisa.zip
-mv "MonoLisa Font/*" ~/Library/Fonts/
-rm -r "MonoLisa Font"
+mv MonoLisa\ Font/* $HOME/Library/Fonts/
+rm -rf MonoLisa\ Font/
 
 # some more random command line things.
-# github.com/jamiew/git-friendly
-# the `push` command which copies the github compare URL to my clipboard is heaven
-bash < <( curl https://raw.github.com/jamiew/git-friendly/master/install.sh)
-
 # turn off prompt for short lived sessions
 defaults write com.googlecode.iterm2 NeverWarnAboutShortLivedSessions -bool false
 
 # autocompletion for git branch names https://git-scm.com/book/en/v1/Git-Basics-Tips-and-Tricks
 curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
-# miniforge configuration
+# zsh autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+# caveats configuration
 conda init "$(basename "${SHELL}")"
+eval "$(/usr/libexec/path_helper)"
